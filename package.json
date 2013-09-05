@@ -1,12 +1,13 @@
 {
   "name": "grunt-geojsonhint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grunt task to run geojsonhint",
   "main": "tasks/geojsonhint.js",
   "repository": "",
   "keywords": [
     "geojson",
     "grunt",
+    "gruntplugin",
     "hint"
   ],
   "author": "Jan Pieter Waagmeester <jieter@jieter.nl>",
