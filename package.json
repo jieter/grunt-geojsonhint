@@ -1,6 +1,6 @@
 {
   "name": "grunt-geojsonhint",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Grunt task to run geojsonhint",
   "main": "tasks/geojsonhint.js",
   "repository": "",
@@ -9,13 +9,18 @@
     "grunt",
     "hint"
   ],
-  "author": "Jan Pieter Waagmeester",
+  "author": "Jan Pieter Waagmeester <jieter@jieter.nl>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jieter/grunt-geojsonhint.git"
+  },
   "dependencies": {
     "geojsonhint": "~0.1.4"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.4"
-  }
+  },
+  "readmeFilename": "README.md"
 }
