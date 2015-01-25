@@ -21,7 +21,7 @@ module.exports = function (grunt) {
 				}
 			});
 			if (errorCount === 0) {
-				grunt.log.ok(this.files.length, ' files without errors');
+				grunt.log.ok(this.filesSrc.length, ' files without errors');
 			} else {
 				return false;
 			}
