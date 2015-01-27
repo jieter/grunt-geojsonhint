@@ -1,6 +1,6 @@
 {
   "name": "grunt-geojsonhint",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Grunt task to run geojsonhint",
   "main": "tasks/geojsonhint.js",
   "repository": {
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "release": "mversion patch -m"
-},
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.4",
